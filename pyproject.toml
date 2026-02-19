@@ -5,13 +5,13 @@ build-backend = "hatchling.build"
 [project]
 name = "mutouplotlib"
 dynamic = ["version"]
-description = ''
+description = 'my plotting library based on Matplotlib'
 readme = "README.md"
 requires-python = ">=3.8"
 license = "MIT"
 keywords = []
 authors = [
-  { name = "U.N. Owen", email = "void@some.where" },
+  { name = "ZY Tan", email = "2334247405@qq.com" },
 ]
 classifiers = [
   "Development Status :: 4 - Beta",
@@ -24,12 +24,17 @@ classifiers = [
   "Programming Language :: Python :: Implementation :: CPython",
   "Programming Language :: Python :: Implementation :: PyPy",
 ]
-dependencies = []
+dependencies = [
+  "numpy>=1.20.0",
+  "scipy>=1.7.0",
+  "matplotlib>=3.5.0",
+  "seaborn>=0.11.0",
+]
 
 [project.urls]
-Documentation = "https://github.com/U.N. Owen/mutouplotlib#readme"
-Issues = "https://github.com/U.N. Owen/mutouplotlib/issues"
-Source = "https://github.com/U.N. Owen/mutouplotlib"
+Documentation = "https://github.com/ifsihj/mutouplotlib#readme"
+Issues = "https://github.com/ifsihj/mutouplotlib/issues"
+Source = "https://github.com/ifsihj/mutouplotlib"
 
 [tool.hatch.version]
 path = "src/mutouplotlib/__about__.py"
