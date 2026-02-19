@@ -79,7 +79,7 @@ class FigureStyle:
     )
 
     chinese_font_family: tuple[str, ...] = (
-        "SimSun",
+        "simsun",
         "Songti SC",
         "STSong",
         "NSimSun",
@@ -114,7 +114,7 @@ def apply_publication_style(style: FigureStyle | None = None) -> None:
 
         "font.sans-serif": [
             *s.font_family,
-            *s.chinese_font_family,
+            *s.chinese_font_family,      
         ],
 
         "axes.unicode_minus": False,
