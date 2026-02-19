@@ -15,7 +15,7 @@ from ..style import apply_publication_style, get_default_colors
 # Core API
 # ============================================================
 
-def trend(
+def plot(
     x: Sequence[float],
     y: Sequence[float] | Sequence[Sequence[float]],
     *,
@@ -122,7 +122,7 @@ def trend(
 # Confidence interval version
 # ============================================================
 
-def trend_ci(
+def plot_ci(
     x,
     y,
     y_lower,

@@ -1,3 +1,3 @@
-from .trend import trend, trend_ci
+from .plot import plot, plot_ci
 
-__all__ = ["trend", "trend_ci"]
+__all__ = ["plot", "plot_ci"]
