@@ -11,7 +11,7 @@ from .style import (
     get_default_colors,
 )
 
-from .plots import plot, plot_ci, heatmap
+from .plots import plot, plot_ci, heatmap, bar, barh
 
 __all__ = [
     "FigureStyle",
@@ -22,6 +22,8 @@ __all__ = [
     "plot",
     "plot_ci",
     "heatmap",
+    "bar",
+    "barh",
 ]
 
 __version__ = "0.0.1"
