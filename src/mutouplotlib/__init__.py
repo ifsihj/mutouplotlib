@@ -11,7 +11,7 @@ from .style import (
     get_default_colors,
 )
 
-from .plots import trend, trend_ci
+from .plots import plot, plot_ci, heatmap
 
 __all__ = [
     "FigureStyle",
@@ -19,8 +19,9 @@ __all__ = [
     "PALETTE",
     "DEFAULT_COLORS",
     "get_default_colors",
-    "trend",
-    "trend_ci",
+    "plot",
+    "plot_ci",
+    "heatmap",
 ]
 
 __version__ = "0.0.1"
